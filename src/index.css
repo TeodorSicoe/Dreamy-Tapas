@@ -50,6 +50,21 @@ body {
   align-items: center;
 }
 
+.SignUp-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #f77950;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 550px;
+  padding: 30px;
+  font-size: 27px;
+  border-radius: 10%;
+  font-family: 'Michroma', sans-serif;
+  font-family: 'Pacifico', cursive;
+}
+
 .Auth-pannel {
   display: flex;
   flex-direction: row;
@@ -88,7 +103,7 @@ body {
 }
 
 .Auth-label {
-  width: 20px;
+  width: 300px;
   height: 50px;
 }
 

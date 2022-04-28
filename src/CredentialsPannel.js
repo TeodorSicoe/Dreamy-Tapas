@@ -4,7 +4,7 @@ const CredentialsPannel = () => {
         <cred class="Auth-pannel">
             <div className="Auth-card">
                 <div className="Auth-pair">
-                    <label className="Auth-label">Username</label>
+                    <label className="Auth-label">Email</label>
                     <input type="text" name="uname" className="Auth-input" required />
                 </div>
                 
