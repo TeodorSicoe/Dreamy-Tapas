@@ -129,6 +129,59 @@ body {
   padding-right: 100px;
 }
 
+.Offer-pannel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #fff9da;
+  height: 100vh;
+  align-items: center;
+}
+
+.Album {
+  background-color: bisque;
+  width: 500px;
+  height: 300px;
+}
+
+.Speciality-text {
+  font-size: 27px;
+  font-family: 'Michroma', sans-serif;
+  font-family: 'Pacifico', cursive;
+  color: #fff9da;
+  padding: 0px;
+  margin: 0px;
+}
+
+.Speciality-set {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* gap: 50px; */
+  align-items: center;
+  color: transparent;
+  height: 800px;
+  width: 150vh;
+}
+
+.Speciality-resize {
+  /* height: 110px;
+  width: 250px; */
+  height: 69%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.Speciality {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #40480b;
+  width: 300px;
+  height: 210px;
+}
+
 .Moto-text {
   display: flex;
   flex-direction: column;
@@ -139,7 +192,7 @@ body {
 
 .Bar-button {
   height: 70px;
-  width: 70px;
+  width: 100px;
   margin-left: 40px;
   margin-right: 40px;
   color: #fff9da;

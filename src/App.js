@@ -1,6 +1,7 @@
 import LandingPage from './LandingPage'
 import AuthenticationPage from './AuthenticationPage';
 import SignUpPage from './SignUpPage';
+import HomePage from './HomePage';
 
 function App() {
   return (
@@ -12,10 +13,14 @@ function App() {
     //   <AuthenticationPage></AuthenticationPage>
     // </div>
 
+    // <div className="App">
+    //   <SignUpPage></SignUpPage>
+    // </div>
+
     <div className="App">
-      <SignUpPage></SignUpPage>
+      <HomePage></HomePage>
     </div>
-    
+
   );
 }
 
